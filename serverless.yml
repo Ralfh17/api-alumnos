@@ -19,8 +19,8 @@ functions:
           integration: lambda
 
 crear:
-    handler: CrearAlumno.lambda_handler
-    events:
+  handler: CrearAlumno.lambda_handler
+  events:
       - http:
           path: /alumnos/crear
           method: post
